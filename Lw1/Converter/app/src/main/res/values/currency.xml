@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="currency">
+        <item>Рубль</item>
+        <item>Доллар</item>
+        <item>Евро</item>
+    </string-array>
+
+    <string name="РубльРубль">1</string>
+    <string name="РубльДоллар">2.63</string>
+    <string name="РубльЕвро">3.07</string>
+    <string name="ДолларДоллар">1</string>
+    <string name="ДолларРубль">0.3802281368</string>
+    <string name="ДолларЕвро">0.8547008547</string>
+    <string name="ЕвроЕвро">1</string>
+    <string name="ЕвроРубль">0.3257328990</string>
+    <string name="ЕвроДоллар">1.17</string>
+
+</resources>

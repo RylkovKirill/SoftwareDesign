@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="weight">
+        <item>Грамм</item>
+        <item>Килограмм</item>
+        <item>Центнер</item>
+    </string-array>
+
+    <string name="ГраммГрамм">1</string>
+    <string name="ГраммКилограмм">0.001</string>
+    <string name="ГраммЦентнер">0.00001</string>
+    <string name="КилограммКилограмм">1</string>
+    <string name="КилограммГрамм">1000</string>
+    <string name="КилограммЦентнер">0.01</string>
+    <string name="ЦентнерЦентнер">1</string>
+    <string name="ЦентнерГрамм">100000</string>
+    <string name="ЦентнерКилограмм">100</string>
+
+</resources>

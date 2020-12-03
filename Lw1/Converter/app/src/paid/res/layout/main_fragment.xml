@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Spinner
+            android:id="@+id/inputCategoryObject"
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+
+        <TextView
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="0"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/outputCategoryObject"
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="0"
+            android:textSize="24sp" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:columnCount="3"
+            app:rowCount="1"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="492dp">
+
+            <Button
+                android:id="@+id/buttonCopyFrom"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="copyInput"
+                android:text="копировать ввод"
+                android:textSize="8sp"
+                app:layout_column="0"
+                app:layout_row="0"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="497dp" />
+
+            <Button
+                android:id="@+id/buttonCopyTo"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="copyOutput"
+                android:text="копировать вывод"
+                android:textSize="8sp"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/buttonSwap"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:foreground="@drawable/swap"
+                android:onClick="Swap"
+                android:textSize="8sp"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
