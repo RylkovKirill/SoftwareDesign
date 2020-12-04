@@ -6,6 +6,14 @@ plugins {
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\user\\key.jks')
+            storePassword '123456q'
+            keyAlias 'key0'
+            keyPassword '123456q'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "30.0.2"
 
@@ -23,6 +31,8 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+
         }
     }
     compileOptions {
