@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="distance">
+        <item>Сантиметр</item>
+        <item>Метр</item>
+        <item>Километр</item>
+    </string-array>
+
+    <string name="СантиметрСантиметр">1</string>
+    <string name="СантиметрМетр">0.01</string>
+    <string name="СантиметрКилометр">0.00001</string>
+    <string name="МетрМетр">1</string>
+    <string name="МетрСантиметр">100</string>
+    <string name="МетрКилометр">0.001</string>
+    <string name="КилометрКилометр">1</string>
+    <string name="КилометрСантиметр">100000</string>
+    <string name="КилометрМетр">1000</string>
+
+</resources>

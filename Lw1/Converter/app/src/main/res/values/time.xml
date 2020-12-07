@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="time">
+        <item>Секунда</item>
+        <item>Минута</item>
+        <item>Час</item>
+    </string-array>
+
+    <string name="СекундаСекунда">1</string>
+    <string name="СекундаМинута">0.0166666666</string>
+    <string name="СекундаЧас">0.0002777777</string>
+    <string name="МинутаМинута">1</string>
+    <string name="МинутаСекунда">60</string>
+    <string name="МинутаЧас">0.0166666666</string>
+    <string name="ЧасЧас">1</string>
+    <string name="ЧасСекунда">3600</string>
+    <string name="ЧасМинута">60</string>
+
+</resources>

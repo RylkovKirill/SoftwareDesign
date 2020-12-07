@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:rowCount="2">
+
+        <Button
+            android:id="@+id/buttonDistance"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:background="@drawable/distance"
+            android:onClick="selectCategory"
+            android:tag="DISTANCE"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttonWeight"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:background="@drawable/weight"
+            android:onClick="selectCategory"
+            android:tag="WEIGHT"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttonCurrency"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:background="@drawable/currency"
+            android:onClick="selectCategory"
+            android:tag="CURRENCY"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttonTime"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:background="@drawable/time"
+            android:onClick="selectCategory"
+            android:tag="TIME"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textViewDistance"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Растояние"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Вес"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textViewCurrency"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Валюта"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Время"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Выберите категорию"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
