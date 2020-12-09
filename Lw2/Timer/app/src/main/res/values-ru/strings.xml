@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Таймер</string>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>Английский</item>
+    </string-array>
+
+    <string-array name="font_sizes">
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+    <string name="chooseLang">Выберите язык</string>
+    <string name="chooseFont">Выберите шрифт</string>
+    <string name="nightTheme">Темная тема</string>
+    <string name="resetTimers">Сбросить таймеры</string>
+
+    <string name="lang">Язык</string>
+    <string name="font">Шрифт</string>
+    <string name="theme">Тема</string>
+
+    <string name="settings">Настройки</string>
+    <string name="name">Название</string>
+    <string name="actionName">Название действия</string>
+    <string name="add">Добавить</string>
+    <string name="start">Старт</string>
+    <string name="timerName">Название таймера</string>
+    <string name="timerColor">Цвет таймера</string>
+
+    <string name="timerEnd">Таймер завершен!</string>
+    <string name="actionEnd">завершено!</string>
+
+    <string name="play">Запустить</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="reset">Сбросить</string>
+    <string name="createCopy">Создать копию</string>
+
+    <string name="сhooseСolor">Выбирите цвет</string>
+    <string name="deleteAllActions">Удалить все последовательности</string>
+
+</resources>
