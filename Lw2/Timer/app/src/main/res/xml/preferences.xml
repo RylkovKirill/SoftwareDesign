@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/theme">
+
+        <SwitchPreferenceCompat
+            app:key="nightMode"
+            app:title="@string/nightTheme" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/lang">
+
+        <ListPreference
+            app:defaultValue="ru"
+            app:entries="@array/languages"
+            app:entryValues="@array/languages_val"
+            app:key="language"
+            app:title="@string/chooseLang"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/font">
+
+        <ListPreference
+            app:defaultValue="1.0"
+            app:entries="@array/font_sizes"
+            app:entryValues="@array/font_sizes_val"
+            app:key="fontSize"
+            app:title="@string/chooseFont"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory>
+        <Preference
+            android:key="resetDb"
+            android:title="@string/resetTimers"
+            android:widgetLayout="@layout/pref_reset_button">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
