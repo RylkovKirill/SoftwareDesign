@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Battleship</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="invalidEmail">Invalid email</string>
+    <string name="loginFailed">"Login failed"</string>
+
+    <string name="add">Create new game</string>
+    <string name="connect">Connect to the game by id</string>
+    <string name="playWithAI">play with AI</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
+    <string name="statistics">Statistics</string>
+    <string name="logout">Logout</string>
+
+    <string name="username">Username: </string>
+    <string name="usernameInput">Enter username</string>
+    <string name="save">Save</string>
+    <string name="changesSaved">Changes saved</string>
+    <string name="score">Score</string>
+    <string name="createYourMap">Create your map!</string>
+    <string name="loadUserMap">load map</string>
+    <string name="generateRandomMap">Generate random map</string>
+    <string name="invalidMap">Invalid map</string>
+    <string name="generateNewId">New</string>
+    <string name="start">Start</string>
+    <string name="share">Share</string>
+
+    <string name="enemyIsConnected">The enemy is connected</string>
+
+    <string name="won">You won</string>
+    <string name="lost">You lost</string>
+
+
+    <string name="enterId">Enter id to connect to the game</string>
+</resources>
