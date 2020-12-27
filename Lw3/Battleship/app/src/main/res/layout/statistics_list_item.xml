@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/firstUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="user1"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/firstUserScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginStart="24dp"
+                    android:text="0"
+                    android:gravity="right"
+                    android:textColor="@color/colorAccent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/secondUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="user2"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/secondUserScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="right"
+                    android:text="0"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/gameDate"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-black"
+            android:text="Game date"
+            android:layout_weight="1">
+        </TextView>
+</LinearLayout>
